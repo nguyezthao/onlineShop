@@ -1,0 +1,45 @@
+.container1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  height: 700px;
+  background-color: rgba(77, 77, 77, 0.4);
+  border-radius: 30px;
+}
+.container2 {
+  margin-left: 50%;
+  position: relative;
+}
+.container2 input {
+  max-width: 600px; /* Điều chỉnh giá trị tùy thuộc vào yêu cầu của bạn */
+  width: 100%; /* Chiều rộng 100% để đảm bảo nó không vượt quá giới hạn tối đa */
+  margin: 5px 0; /* Điều chỉnh nếu cần thiết */
+  background-color: transparent;
+  outline: none;
+  border-radius: 40px;
+}
+.container2 form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 50px;
+}
+.content h1 {
+  letter-spacing: 0.3rem;
+  color: azure;
+  font-family: Roboto;
+}
+.content p {
+  font-size: 30px;
+  color: antiquewhite;
+}
+.img {
+  background-image: url(/src/pages/avt.png);
+  width: 700px;
+  height: 180px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
